@@ -1,0 +1,171 @@
+.container {
+    margin-top: 3.5rem;
+    width: 100%;
+}
+
+.container h1 {
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: left;
+    color: #07172F;
+}
+
+.container hr {
+    color: #3c87f8;
+    margin-bottom: 2rem;
+}
+
+.overview {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #718CAF;
+    text-align: left;
+
+}
+
+.cardHolder {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 49.2%;
+    padding: 2rem;
+    height: 176px;
+    background: #FFFFFF;
+    border: 1px solid #DEEBFE;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 26px rgba(20, 60, 95, 0.04);
+    border-radius: 20px;
+}
+
+.cardContent {
+    display: flex;
+    justify-content: space-between;
+    width: 12.3rem;
+}
+
+.currencySymbol {
+    padding-top: 1rem;
+    width: 56px;
+    height: 56px;
+    background: rgba(27, 243, 164, 0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.currencySymbol p {
+    color:  #17EC9D;
+    font-weight: 600;
+}
+
+.amount p:first-child {
+    margin-top: 2px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #718CAF;
+}
+
+.amount :nth-child(2) {
+    margin-top: -0.5rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #07172F;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 10.8rem;
+}
+.buttons span:first-child {
+    margin-top: 0.5rem;
+    width: 81px;
+    background: #2E71FF;
+    box-shadow: 0px 2px 10px rgba(46, 113, 255, 0.14);
+    border-radius: 8px;
+    padding: 0.45rem ;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.buttons :nth-child(2) {
+    width: 80px;
+    background: #D3E7FF;
+    border-radius: 8px;
+    color: #2E71FF;
+    text-align: center;
+    font-size: 12px;
+    height: 2rem;
+    margin-top: 0.5rem;
+    padding: 0.45rem;
+    margin-left: -10px;
+}
+
+.tableStyle {
+    margin-top: 2rem;
+    background: #FFFFFF;
+    /* border: 1px solid #E2EAF4; */
+}
+
+/* .tableHead {
+    height: 56px;
+    background: #F0F5FF;
+    border-bottom: none !important;
+} */
+
+.table__header{
+    width: 100%;
+    background-color: #F0F5FF;
+    border-bottom: 1px solid #E2EAF4;
+    height: 56px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-items: start;
+}
+.table__header >div:first-child{
+    padding-left: 32px;
+}
+.table__information__option{
+    display: grid;
+    background-color: #ffff;
+    height: 56px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    border-bottom: 1px solid #E2EAF4;
+    align-items: center;
+    justify-items: start;
+}
+.table__information__option >div:first-child{
+    padding-left: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+    .cardHolder {
+        display: flex;
+        flex-direction: column;
+    }
+}

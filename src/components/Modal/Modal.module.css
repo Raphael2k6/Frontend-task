@@ -1,0 +1,215 @@
+.modal {
+    position: fixed;
+    z-index: 11;
+    left: 16.5rem;
+    top: 24rem;
+    transform: translateX(-50%);
+    width: 466px;
+    height: 509px;
+    background-color: rgb(158, 70, 70);
+    background: #FFFFFF;
+    border: 0.5px solid rgba(7, 23, 47, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 5px 83px rgba(2, 11, 30, 0.14);
+    border-radius: 30px;
+}
+
+.header {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom: 2px solid rgba(126, 152, 206, 0.32);
+    background: #07172F;
+    padding: 2rem;
+    position: relative;
+}
+.header:before {
+    position: absolute;
+    height: 2px;
+    content: '';
+    bottom: -2px;
+    left: 0;
+    width: 116.5px;
+    height: 6px;
+    left: 0px;
+    background: #1BF3A4;
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.level {
+    display: flex;
+    margin-top: -0.8rem;
+    margin-bottom: 0.5rem;
+}
+.level p:first-child {
+    margin-right: 1rem;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #2E71FF;
+}
+
+.level p:nth-child(2) {
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E2EAF4;
+}
+
+.nft {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    padding: 0.7rem;
+}
+
+.nft svg {
+    width: 36px;
+    margin-right: 1rem;
+}
+
+.nft p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+
+}
+
+.step1, .step2, .step3, .step4 {
+    margin: 1.4rem 2rem 1.9rem 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.step3 {
+    width: 410px;
+    height: 70px;
+    background: rgba(46, 113, 255, 0.07);
+    border-radius: 10px;
+}
+
+.step1 p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #1BF3A4;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+/* .step1 span {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #718CAF;
+
+} */
+
+.account, .id{
+    display: flex;
+    justify-content: center;
+    margin-top: -2.3rem;
+    margin-left: -2rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #718CAF;
+ }
+ 
+ .id {
+    display: flex;
+    justify-content: center;
+    margin-top: -2.3rem;
+    margin-left: -5rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #718CAF;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    margin-top: -3.6rem;
+    margin-left: -0.7rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #718CAF;
+}
+.bank{
+    display: flex;
+    justify-content: center;
+    margin-top: -2rem;
+    margin-left: -0.7rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #718CAF;
+}
+
+.step2 p, .step4 p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color:  #07172F;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+.step3 p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color:  #2E71FF;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}

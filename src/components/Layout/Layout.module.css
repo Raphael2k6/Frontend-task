@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    width: 100%;
+    background: #fafcff;
+    /* justify-content: space-between; */
+}
+.sidemenuHolder {
+    /* width: 20%; */
+    margin-right: 3%;
+}
+
+.dashboardHolder {
+    display: flex;
+    width: 77%;
+    margin-right: 3%;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidemenuHolder {
+        width: 17rem;
+    }
+}
