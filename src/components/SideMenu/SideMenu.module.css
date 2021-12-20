@@ -68,3 +68,9 @@
     margin-left: 2rem;
     cursor: pointer;
 }
+
+@media screen and (max-width: 540px) {
+    .container {
+        display: none;
+    }
+}
