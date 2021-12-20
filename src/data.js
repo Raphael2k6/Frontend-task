@@ -31,55 +31,63 @@ export const tableData= [
         To: "My Wallet",
         Currency: "USD Coin (PoS)",
         Amount: '100.00',
-        Action: 'Recieved'
+        Action: 'Recieved',
+        status: true
     },
     {
         From: "Finvault",
         To: "My Wallet",
         Currency: "USD Coin (PoS)",
         Amount: '100.00',
-        Action: 'Recieved'
+        Action: 'sent',
+        status: false
     },
     {
         From: "Finvault",
         To: "My Wallet",
         Currency: "USD Coin (PoS)",
         Amount: '100.00',
-        Action: 'Recieved'
+        Action: 'Recieved',
+        status: true
     },
     {
         From: "Finvault",
         To: "My Wallet",
         Currency: "USD Coin (PoS)",
         Amount: '100.00',
-        Action: 'Recieved'
+        Action: 'sent',
+        status: false
     },
     {
         From: "Finvault",
         To: "My Wallet",
         Currency: "USD Coin (PoS)",
         Amount: '100.00',
-        Action: 'Recieved'
+        Action: 'sent',
+        status: false
     },
     {
         From: "Finvault",
         To: "My Wallet",
         Currency: "USD Coin (PoS)",
         Amount: '100.00',
-        Action: 'Recieved'
+        Action: 'Recieved',
+        status: true
     },
     {
         From: "Finvault",
         To: "My Wallet",
         Currency: "USD Coin (PoS)",
         Amount: '100.00',
-        Action: 'Recieved'
+        Action: 'Recieved',
+        status: true
     },
     {
         From: "Finvault",
         To: "My Wallet",
         Currency: "USD Coin (PoS)",
         Amount: '100.00',
-        Action: 'Recieved'
+        Action: 'sent',
+        status: false
     },
 ]

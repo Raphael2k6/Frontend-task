@@ -2,9 +2,6 @@ import React from 'react';
 import Icon from '../Utils/Icons/Icon';
 import styles from './Dashboard.module.css';
 import { dashboardCardData, tableData } from '../../data';
-import Table from '../Table/Table';
-import '../../App.css';
-
 
 const cards = dashboardCardData.map(card => {
     return (
@@ -34,7 +31,7 @@ const tableInfo = tableData.map((e, i) => {
             <div>{e.To} </div>
             <div>{e.Currency} </div>
             <div>{e.Amount} </div>
-            <div>{e.Action} </div>
+            <div className={e.status === true ? styles.green: styles.red}>{e.Action} </div>
         </div>
     )
 
