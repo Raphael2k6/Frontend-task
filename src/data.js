@@ -1,5 +1,3 @@
-import Icon from "./components/Utils/Icons/Icon";
-
 export const sidemenuData = [
     {id: 1, name: "Transactions"},
     {id: 2, name: "Deposit Into FinVault"},

@@ -200,3 +200,15 @@
         flex-direction: column;
     }
 }
+
+@media  screen and (max-width: 540px) {
+    .card {
+        margin-bottom: 10px;
+    }
+    .table__header, .table__information__option{
+        font-size: 12px;
+    }
+    .table__header >div:first-child, .table__information__option >div:first-child{
+        padding-left: 3px;
+    }
+}

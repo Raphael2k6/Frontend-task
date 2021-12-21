@@ -7,7 +7,7 @@ import Modal from '../Modal/Modal';
 
 
 const SideMenu = (props) => {
-    const {showModal, show, hide} = props;
+    const {showModal, show} = props;
     const [activeTab, setActiveTab] = useState("");
     
 
